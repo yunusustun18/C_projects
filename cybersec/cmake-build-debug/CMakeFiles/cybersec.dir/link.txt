@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cybersec.dir/main.cpp.o  -o cybersec 

@@ -1,18 +1,9 @@
-#include <iostream>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
-int main() {
-    bool flag = true;
-    int count = 1;
-    if (flag) {
-        printf("it's here\n");
-    }
-    while (flag) {
-        printf("%d. it's here\n", count);
-        if (count > 3) {
-            printf("exit the code\n");
-            return 0;
-        }
-        count++;
-    }
+int main(int argc, char *argv[]) {
+    char input[500];
+    strcpy(input, argv[1]);
     return 0;
 }

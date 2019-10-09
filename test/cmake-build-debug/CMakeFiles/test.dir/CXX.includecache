@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /opt/clion/projects/test/main.cpp
-iostream
+stdio.h
+-
+string.h
+-
+stdlib.h
 -
 
